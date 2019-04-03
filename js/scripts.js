@@ -10,7 +10,7 @@ $(document).ready(function() {
     var stringSentence = newSentence.reverse();
     var finalSentence = stringSentence.join("");
 
-    if (finalSentence === user_answer) {
+    if (finalSentence.toLowerCase() === user_answer.toLowerCase()) {
       alert("palindrom")
 
     } else {
